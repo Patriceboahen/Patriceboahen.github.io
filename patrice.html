@@ -1,0 +1,165 @@
+<hl> I like pancakes </hl>
+<!DOCTYPE html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<style>
+	
+	body {
+	font-family: 'Montserrat', sans-serif;
+	  margin: 0 auto;
+	  max-width: 600px;
+	  background: url("https://www.desktopbackground.org/download/o/2011/05/27/209891_pastel-rainbow-ombre-iphone-wallpapers-phone-backgrounds-lock-screen_640x1136_h.jpg");
+	}
+	div {
+	  height: 200px;
+	  background-size: cover;
+	  position: relative;
+	  margin: 40px 0 0 0;
+	  border-radius: 12px;
+	}
+	h1 {
+	  font-family: 'Dancing Script', cursive;
+	  text-align: center;
+	  font-size: 75px;
+	  color: black;
+	  margin: 60px 0 0 0;
+  
+	}
+	h2 {
+	  font-family: 'Berkshire Swash', cursive;
+	  text-align: center;
+	  color: purple;
+	  margin: 3px 0 70px 0;
+	}
+	h3 {
+	    font-size: 19px;
+	    margin:10px;
+	    color:purple;
+	    font-family: 'Merienda', cursive;
+	  }
+	p {
+	  color: rgba(255,255,255,1);
+	  background: blue;
+	  background: linear-gradient(bottom, rgba(100,100,100,1), rgba(100,100,100,.4));
+	  background: -webkit-linear-gradient(bottom, rgba(100,100,100,1), rgba(100,10,0,.4));
+	  background: -moz-linear-gradient(bottom, rgba(7,9,2,1), rgba(5,6,8,.4));
+	  color:pink;
+	  font-family: 'Merienda One', cursive;
+	  font-size: 25px;
+	  padding: 10px;
+	  line-height: 28px;
+	  text-align: justify;
+	  position: absolute;
+	  bottom: 0;
+	  margin: 0;
+	  height: 30px;
+	  transition: height .5s;
+	  -webkit-transition: height .5s;
+	  -moz-transition: height .5s;
+	}
+
+	small {
+	  opacity: 0;
+	}
+
+	.show-description p {
+	  height: 150px;
+	}
+
+	.show-description small {
+	  opacity: 1;
+	}
+
+	.House {
+	  background-image: url("http://www.yourpurebredpuppy.com/dogbreeds/photos-EFGH/goldenretrievers3.jpg");
+	  height: 500px;
+	  width: 500px;
+	  font-size:16px;
+	}
+	.Chill {
+	  background-image: url("https://irp-cdn.multiscreensite.com/a123db97/dms3rep/multi/IMG_3571-03-08-17-05-55.JPG");
+	  height: 400px;
+	  width:600px;
+ 
+	}
+	.Guard{
+	  background-image: url("http://www.dogster.com/wp-content/uploads/2017/10/A-Rottweiler-sitting-down-with-his-tongue-out.jpg");
+	  height: 400px;
+	  width: 600px;
+	}
+	.Cute{
+	}
+	.price {
+	  float: right;
+	}
+	@media (max-width: 500px) {
+	  h1 {
+	    font-size: 10px;
+	    margin-top: 20px;
+	    line-height: 40px;
+    
+	  }
+	  h2 {
+	    font-size: 10px;
+	    margin: 20px 0 30px 0;
+	  }
+  
+	  div {
+	    margin: 20px 12px 0 12px;
+	  }
+	  p {
+	    font-size: 10px;
+	    line-height: 24px;
+	    color:pink;
+	  }
+	  small {
+	    font-size: 16px;
+	  }
+	}
+
+	</style>
+
+	</head>
+
+	<body>
+	<h1>PATRICE DOG PALACE</h1>
+	<h2>Find a pet for you Today!!!</h2>
+	<h3>Hello. My name is Patrice. I am a 14 year old and i live in The big Apple aka Nyc. sorry, I gotta represent, but specifically Queens.I just began my High School life which was amazing. I am one step closer to College which means i am oficially about to begin ,my life. To be honest, teenage life is hard. I wanted to make some money so i decided to open a dog pound. I love dogs and feel i have a mutual relationship towards them. It's true that a dog is a man's best friend. So come on down to my dog Palace if you want a new best friend. </h3>
+	<button>Like</button>
+	<div class="House Pets">
+	  <p>Golden Retriever <span class="price">$1,500</span><br />
+	  <small>Golden Retriever for sale. The cost of this cute house dog is a 1,500. This dog is great for the kids and is so loving. It's beautiful Golden fur is silky and it brely sheds. This is an offer you can't deny. </small></p>
+	</div>
+
+	<div class="Chill Dogs">
+	  <p>Bulldog <span class="price">$2,200</span><br />
+	  <small>Awwww, these are one of my favorite dogs. Aren't they so cute. These dogs are smalll and fluffy. There are so many varieties and they are small, so you can fit them in your bag. Who wouldn't want these loving creatures in their home. But now!!</small></p>
+	</div>
+   
+    
+	  </article>
+	  <script>
+	    $("button").on("click", function() {
+	      alert("Get a friend today!!");
+	    });
+  
+	  </script>
+	<div class="Guard Dogs">
+	  <p>Rotweiler <span class="price">$1,000</span><br />
+	  <small>These Guard dogs will protect your family from any invaders. They are medium size beautiful and so fun to play with. Their sSilky brown and black fur make it so they don't shed around the house. THey are loveable creatures and i think yu should buy them now. A great house dog and a great Guard dog. </small></p>
+	</div>
+
+	<script>
+	  $('div').on('click', function() {
+	      $(this).toggleClass('show-description');
+	  });
+	</script>
+
+	</body>
