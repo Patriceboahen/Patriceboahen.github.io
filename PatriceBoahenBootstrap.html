@@ -81,7 +81,7 @@
 	  }
 	  .thumbnail img {
 	      width: 100%;
-	      height: 100%;
+	      height: 300px;
 	      margin-bottom: 10px;
 	  }
 	  @media screen and (max-width: 768px) {
@@ -155,7 +155,48 @@
       <br><br>
       
       <p><span class="badge">9,000,000</span> Comments:</p><br>
-      
+
+      <table>
+	<tr>
+	<td>
+	    <table>
+		<thead>
+		    <tr>
+		        <td><strong>Avatar</strong></td>
+		    </tr>
+		</thead>
+		<tbody id="link">
+
+		</tbody>
+	    </table>
+	</td>
+	<td>
+	    <table>
+		<thead>
+		    <tr>
+			<td><strong>Name</strong></td>
+		    </tr>
+		</thead>
+		<tbody id="title">
+
+		</tbody>
+	    </table>
+	</td>
+	<td>
+	    <table>
+		<thead>
+		    <tr>
+			<td><strong>Comment</strong></td>
+		    </tr>
+		</thead>
+		<tbody id="remark">
+
+		</tbody>
+	    </table>
+	</td>
+	</tr>
+      </table>
+	    
       <div class="row">
         <div class="col-sm-2 text-center">
           <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_kin5Jfz5693hQ6qxcT0rVcbQwE_8QakfVD64KXyx1xm1YUE class="img-circle" height="65" width="65" alt="Avatar">
@@ -299,7 +340,11 @@
      myHilitor.apply(this.value);
    }, false);
  </script>
- 
+	
+ <!-- Load the application script, which will save data to our Firebase app when we click the button. -->
+<script src="/application.js">
+</script>
+	
 </body>
 </html>
 .
